@@ -240,7 +240,7 @@ jobs:
         if: ${{ inputs.enable_ytab }}
         run: |
           cd ${{ github.workspace }}
-          git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YTABConfig/.git
+          git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YTABConfig.git
 
       - name: Build YouPiP
         if: ${{ inputs.enable_youpip }}
